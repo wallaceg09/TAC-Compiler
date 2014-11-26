@@ -1,0 +1,8 @@
+program
+a = 10;
+b = 0;
+ans = 5;
+while a > b do a = a - 1;
+while (a - ans) > (b + ans) do ans = ans - 1;
+while a > b do while b > ans do b = b - ans; 
+end.

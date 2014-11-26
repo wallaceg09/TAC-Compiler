@@ -1,0 +1,6 @@
+program
+dividend = divisor * quotient + remainder;
+interest = principal * rate * time;
+compound = principal * (1 + int) ^ n;
+value = result;
+end.

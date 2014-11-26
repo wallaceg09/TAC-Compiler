@@ -1,0 +1,8 @@
+program
+root1 = (~b+(b^2-4*a*c)^(1/2))/(2*a);
+ans = 9 - 5 + 2 ;
+solution = b+c*d^2^3-e;
+final = b + ~c*(d - e)^3^(f + 2*g)/h - i;
+amount=amount*rate*(1+rate)^n/((1+rate)^n-1);
+grade=(1/4)*labs+(1/4)*exam1+(1/4)*exam2+(1/4)*final;
+end.

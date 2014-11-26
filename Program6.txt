@@ -1,0 +1,9 @@
+program
+a = 10;
+b = 0;
+ans = 0;
+if a = b then ans = 0;
+if a < b then ans = ~1;
+if a > b then ans = 1;
+if a <> b then if b < a then ans = 1;
+end.

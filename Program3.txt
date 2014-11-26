@@ -1,0 +1,3 @@
+program
+{ This is a null program }
+end.

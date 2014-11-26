@@ -1,0 +1,9 @@
+program
+area = pi * radius ^ 2;
+value = two - 3 * (( two + 5 ) / six );
+answer = three * ( ~ 9 mod # 3 ) div four;
+result = 5+76-(200mod(58-18));
+nest = (((((data)))));
+poly = (((a*x+b)*c+d)*x+e) mod divisor;
+quad = first/second/third/fourth;
+end.
