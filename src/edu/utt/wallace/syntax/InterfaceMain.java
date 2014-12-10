@@ -11,6 +11,7 @@ public class InterfaceMain {
 		String userInput = "";
 		StringBuilder userCode = new StringBuilder();
 		Scanner in = new Scanner(System.in);
+		System.out.println("Write your program:");
 		while(!((userInput = in.nextLine()).equals("exit")))
 		{
 			//TODO: Impliment "open" command to open a file and compile it
@@ -28,9 +29,9 @@ public class InterfaceMain {
 				try {
 					File file = new File(userInput);
 					PrintWriter w = new PrintWriter(file);
-					w.print(userCode.toString());
+					w.print(userCode.toString());//FIXME: PrintWriter.print does not accept "\n" as a valid whitespace character. Instead iterate through userCode and println() each element
 					w.close();
-					new SyntacticAnalyzer(userInput, System.out).analyze();
+					new SyntacticAnalyzer(userInput, System.out).analyze();//TODO: Allow the user to also save the code to file...
 				} catch (FileNotFoundException e) {
 					System.err.printf("Could not create file %s\n", userInput);
 					e.printStackTrace();
